@@ -1,4 +1,6 @@
 import { element } from './base';
+import { Fraction } from 'fractional';
+
 
 export const clearRecipe = () => {
     element.recipe.innerHTML = ''
